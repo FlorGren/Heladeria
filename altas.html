@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="./media/logocss.ico">
+	<title>Ice Cream</title>
+	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+</head>
+<body>
+	<header>
+		<div class="h-nav">
+			<a href="principal.html"><img class="logo-nav" src="./media/logo.png" alt="" width="150px"></a>
+			<nav>
+				<div class="container-nav">
+					<ul>
+						<li class="list-nav"><a href= "principal.html">INICIO</li>
+						<li class="list-nav"><a href= "productos.html">PRODUCTOS</a></li>
+						<li class="list-nav"><a href= "sucursal.html">SUCURSALES</a></li>
+						<li class="list-nav"><a href= "nosotros.html">NOSOTROS</a></li>
+						<li class="list-nav"><a href= "contacto.html">CONTACTO</a></li>
+						<li class="list-nav"><a href= "datos.html">DATOS</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="form-altas">
+		<img src="./media/alta.png" alt="" width="100px">
+		<h2>ALTAS DE SABORES</h2>
+		<p>Agrega productos al inventario.</p>
+		<div style="display: flex; justify-content: center;">
+			<form id="formulario">
+				<div class="container-form">
+				<label for="codigo">CODIGO:</label>
+				<input type="text" id="codigo" name="codigo" required/><br>
+				<label for="nombre">NOMBRE:</label>
+				<input type="text" id="nombre" name="nombre" required/><br>
+				<label for="imagen">IMAGEN:</label>
+				<input type="text" id="imagen" name="imagen" required/><br>
+				<input type="submit" value="Agregar sabor">
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="./js/altas.js"></script>
+<footer>
+	<div class="container-copy">
+		<p>©TODOS LOS DERECHOS RESERVADOS, 2023.</p>
+	</div>
+</footer>	
+</body>
+</html>
